@@ -35,9 +35,11 @@
     },
     {
       "name": "Nvidia",
+      "price": 0.0,
+      "key": "",
       "model": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter",
-      "format": "openrouter"
+      "format": "openrouter",
+      "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     }
   ]
 }
