@@ -1,19 +1,11 @@
 {
-  "version": 20251214,
+  "version": 2025121401,
   "models": [
     {
-      "name": "DeepSeek",
-      "price": 0.0,
-      "key": "hugonest",
-      "model": "tngtech/deepseek-r1t2-chimera:free",
-      "format": "openrouter",
-      "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
-    },
-    {
-      "name": "Qwen3",
+      "name": "Gemini",
       "price": 0.0,
       "key": "",
-      "model": "qwen/qwen3-coder:free",
+      "model": "google/gemini-2.0-flash-exp:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
@@ -26,10 +18,18 @@
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
     {
-      "name": "Nova",
+      "name": "DeepSeek",
+      "price": 0.0,
+      "key": "hugonest",
+      "model": "tngtech/deepseek-r1t2-chimera:free",
+      "format": "openrouter",
+      "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
+    },
+    {
+      "name": "Kimi",
       "price": 0.0,
       "key": "",
-      "model": "amazon/nova-2-lite-v1:free",
+      "model": "moonshotai/kimi-k2:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
@@ -37,7 +37,7 @@
       "name": "Nvidia",
       "price": 0.0,
       "key": "",
-      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "model": "nvidia/nemotron-nano-9b-v2:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     }

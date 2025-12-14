@@ -1,1 +1,2 @@
-ai_modes.json 是模型列表,  modes.json废弃了
+## 模型列表
+ai_modes.json 
