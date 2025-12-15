@@ -1,43 +1,35 @@
 {
-  "version": 2025121401,
+  "version": 2025121501,
   "models": [
     {
-      "name": "Gemini",
-      "price": 0.0,
-      "key": "",
-      "model": "google/gemini-2.0-flash-exp:free",
-      "format": "openrouter",
-      "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
-    },
-    {
-      "name": "Mistral",
-      "price": 0.0,
-      "key": "",
-      "model": "mistralai/mistral-7b-instruct:free",
-      "format": "openrouter",
-      "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
-    },
-    {
-      "name": "DeepSeek",
+      "name": "zAI",
       "price": 0.0,
       "key": "hugonest",
-      "model": "tngtech/deepseek-r1t2-chimera:free",
+      "model": "z-ai/glm-4.5-air:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
     {
-      "name": "Kimi",
+      "name": "Qwen3",
       "price": 0.0,
       "key": "",
-      "model": "moonshotai/kimi-k2:free",
+      "model": "kwaipilot/kat-coder-pro:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
     {
-      "name": "Nvidia",
+      "name": "Nova",
       "price": 0.0,
       "key": "",
-      "model": "nvidia/nemotron-nano-9b-v2:free",
+      "model": "amazon/nova-2-lite-v1:free",
+      "format": "openrouter",
+      "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
+    },
+    {
+      "name": "Arcee",
+      "price": 0.0,
+      "key": "",
+      "model": "arcee-ai/trinity-mini:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     }
