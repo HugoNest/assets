@@ -1,35 +1,35 @@
 {
-  "version": 2025121501,
+  "version": 2026071101,
   "models": [
     {
-      "name": "zAI",
+      "name": "Nemotron Ultra",
       "price": 0.0,
-      "key": "hugonest",
-      "model": "z-ai/glm-4.5-air:free",
+      "key": "",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
     {
-      "name": "Qwen3",
+      "name": "Gemma 4",
       "price": 0.0,
       "key": "",
-      "model": "kwaipilot/kat-coder-pro:free",
+      "model": "google/gemma-4-31b-it:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
     {
-      "name": "Nova",
+      "name": "Qwen3 Next",
       "price": 0.0,
       "key": "",
-      "model": "amazon/nova-2-lite-v1:free",
+      "model": "qwen/qwen3-next-80b-a3b-instruct:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     },
     {
-      "name": "Arcee",
+      "name": "Laguna M.1",
       "price": 0.0,
       "key": "",
-      "model": "arcee-ai/trinity-mini:free",
+      "model": "poolside/laguna-m.1:free",
       "format": "openrouter",
       "endpoint": "https://hugonestai.xgdebug.com/v1/chat/openrouter"
     }
